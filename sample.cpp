@@ -1,6 +1,7 @@
 #include <iostream>
 
 int sum(int, int);
+int multiple(int,int);
 
 int main(){
     int a = 1;
@@ -11,4 +12,8 @@ int main(){
 
 int sum(int a, int b){
     return a + b;
+}
+
+int multiple(int a,int b){
+    return a*b;
 }
